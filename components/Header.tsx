@@ -37,18 +37,22 @@ function Header({ }: Props) {
                     bgColor='transparent'
                     target="_blank"
                 />
+                
                 <SocialIcon url="https://leetcode.com/Aky9821/"
                     fgColor='gray'
                     bgColor='transparent'
                     target="_blank"
                     label="Leet Code"
-                />
+                >
+                </SocialIcon>
+
                 <SocialIcon url="https://auth.geeksforgeeks.org/user/akshaynagar01011/"
                     fgColor='gray'
                     bgColor='transparent'
                     target="_blank"
                     label="Geeks for Geeks"
                 />
+               
             </motion.div>
 
             {/*Contact Me*/}
