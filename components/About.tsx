@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 import React from 'react'
 import { motion } from "framer-motion";
 
@@ -47,11 +48,11 @@ function About({ }: Props) {
                     }}
                     src="/aky.jpg"
                     className='mt-32 mb-20 md:mb-20 flex-shrink-0 w-56 h-56 rounded-full object-cover
-              md:rounded-lg md:w-64 md:h-96 xl:w-64 xl:h-96 '
+              md:rounded-lg md:w-64 md:h-96 xl:w-64 xl:h-96'
                 >
                 </motion.img>}
             <div className='space-y-10 px-0 md:px-10'>
-                <p className='text-sm'>
+                <p className='text-sm tracking-[0.6px]'>
                     My name is Akshay Nagar, I am a Computer Science Engineering Student at Lovely Professional University.
                     I <span className='underline decoration-[#c22b4e]'>love</span> solving problems. Whether if it's a complex programming problem or a real life problem,
                     I try to come up with a unique and optimal solution for the problem at hand taking in regard the resources provided.

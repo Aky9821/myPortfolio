@@ -22,7 +22,7 @@ function BackgroundComponents({ }: Props) {
             <div className=' absolute border border-[#333333] h-[200px]  rounded-sm w-[200px]  animate-ping mt-52' />
             <div className=' absolute border border-[#333333] h-[250px]  rounded-sm w-[250px]  animate-ping mt-52' />
             <div className=' absolute border border-[#333333] h-[300px]  rounded-sm w-[300px]  animate-ping mt-52' />
-            <div className=' absolute border border-[#c22b4e] h-[580px]  rounded-sm w-[650px]  animate-pulse opacity-20 mt-52' />
+            <div className=' absolute border border-[#c22b4e] xl:h-[550px] l:h-[550px] md:h-[530px] sm:h-[530px] rounded-sm w-[650px]  animate-pulse opacity-20 mt-52' />
 
 
         </motion.div>
