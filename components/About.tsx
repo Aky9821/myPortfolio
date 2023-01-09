@@ -54,7 +54,7 @@ function About({ }: Props) {
             <div className='space-y-10 px-0 md:px-10'>
                 <p className='text-sm tracking-[0.6px]'>
                     My name is Akshay Nagar, I am a Computer Science Engineering Student at Lovely Professional University.
-                    I <span className='underline decoration-[#c22b4e]'>love</span> solving problems. Whether if it's a complex programming problem or a real life problem,
+                    I <span className='underline decoration-[#c22b4e]'>love</span> solving problems. Whether if it&apos;s a complex programming problem or a real life problem,
                     I try to come up with a unique and optimal solution for the problem at hand taking in regard the resources provided.
                     I have keen interest in Web Development, Android Development and Machine Learning and have built multiple projects for the same.
 
