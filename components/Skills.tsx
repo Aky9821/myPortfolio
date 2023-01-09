@@ -39,7 +39,7 @@ function Skills({ }: Props) {
       <div>{
 
         
-       })
+       
       }
       </div>
 
