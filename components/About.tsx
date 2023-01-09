@@ -47,7 +47,7 @@ function About({ }: Props) {
 
                     }}
                     src="/aky.jpg"
-                    className='mt-32 mb-20 md:mb-20 flex-shrink-0 w-56 h-56 rounded-full object-cover
+                    className='mt-32 xl:mb-20 md:mb-10  flex-shrink-0 w-56 h-56 rounded-full object-cover
               md:rounded-lg md:w-64 md:h-96 xl:w-64 xl:h-96'
                 >
                 </motion.img>}
@@ -57,8 +57,6 @@ function About({ }: Props) {
                     I <span className='underline decoration-[#c22b4e]'>love</span> solving problems. Whether if it&apos;s a complex programming problem or a real life problem,
                     I try to come up with a unique and optimal solution for the problem at hand taking in regard the resources provided.
                     I have keen interest in Web Development, Android Development and Machine Learning and have built multiple projects for the same.
-
-
                 </p>
             </div>
 
