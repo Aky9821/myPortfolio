@@ -19,7 +19,7 @@ export interface StatsResponse {
     reputation?: number
 }
 
-export const getStats = async (username: string): Promise<StatsResponse> => {
+export const getStats = async (): Promise<StatsResponse> => {
     try {
         const response = await axios.get(`${ENDPOINT}`)
         return response.data as StatsResponse
