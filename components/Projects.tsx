@@ -32,7 +32,7 @@ function Projects({ }: Props) {
             <div className='w-full absolute top-[30%] bg-[#c22b4e]/10  h-[300px] -skew-y-12'></div>
             <div className='relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20'>
                 {
-                    projects.map((project) => (
+                    projects.map((project,i) => (
                         <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'  >
                             <motion.img src='/netflix.png'
                                 className='h-[300px]'
